@@ -192,10 +192,12 @@ p {
 }
 
 #about-info .info-right img {
+  /* images by default are display: inline */
+  /* changing to block for margin: auto to work*/
   display: block;
   margin: auto;
   width: 70%;
-  border-radius: 50%;
+  border-radius: 5%;
 }
 
 #about-info .info-left {
@@ -228,7 +230,7 @@ p {
   width: 100px;
   float: left;
   margin-right: 20px;
-  border-radius: 50%;
+  border-radius: 5%;
 }
 
 /* Contact Form */
